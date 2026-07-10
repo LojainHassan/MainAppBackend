@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="MainAppBackend.Tests/MainAppBackend.Tests.csproj" Id="ff15744f-1474-45fc-8725-639408273cd6" />
     <Project Path="src/MainAppBackend.API/MainAppBackend.API.csproj" />
     <Project Path="src/MainAppBackend.Application/MainAppBackend.Application.csproj" />
     <Project Path="src/MainAppBackend.Domain/MainAppBackend.Domain.csproj" />
