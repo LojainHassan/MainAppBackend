@@ -1,4 +1,6 @@
-﻿using MainAppBackend.Domain.Entities.Product;
+﻿using MainAppBackend.Domain.Entities.ClientLookup;
+
+using MainAppBackend.Domain.Entities.Product;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -12,6 +14,7 @@ public class ApplicationDbContext : DbContext
     }
 
     public DbSet<ProductCategory> ProductCategories => Set<ProductCategory>();
+    public DbSet<ClientLookup> ClientLookups => Set<ClientLookup>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
